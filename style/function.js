@@ -1,6 +1,5 @@
 let img = document.getElementsByTagName("img")
 let p = document.getElementsByTagName("p")
-let section = document.getElementsByTagName("section")
 let div = document.getElementsByTagName("div")
 
 const one = document.createElement("img")
