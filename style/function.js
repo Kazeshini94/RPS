@@ -52,7 +52,6 @@ function playPaper() {
 }
 
 function playScissor() {
-
     if (enemyMove().src === img[0].src) {
         removeNodes();
        return p[0].innerHTML = "You Loose"
@@ -80,10 +79,10 @@ function backToStart() {
     img[0].src = "media/baseLogo.jpg"
     img[0].style.width = "50%"
 
+    p[0].style.fontSize = "100%"
     p[0].innerText = "Click on the Image to Start the Game"
 
     img[0].onclick = changeContent;
-
 }
 
 function changeContent() {
